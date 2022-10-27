@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+.colors{
+    display: flex;
+    border: 1px solid black;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    position: fixed;
+    top: 80%;
+    left: 47%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+}
